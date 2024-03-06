@@ -1,4 +1,5 @@
 import styles from './Cards.module.css';
+import iconeFavoritar from './favoritar.png'
 
 function Cards({id, titulo, capa}) {
     return(
