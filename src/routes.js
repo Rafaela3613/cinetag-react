@@ -9,15 +9,15 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 function AppRoutes() {
     return (
         <BrowserRouter>
-           <Cabecalho />
-            <Container> 
-            <FavoritosProvider>
-        <Routes>
-            <Route path="/" element={<Inicio />}></Route>
-            <Route path="/favoritos" element={<Favoritos />}></Route>
-        </Routes>
-            </FavoritosProvider>
-        </Container>
+            <Cabecalho />
+            <Container>
+                <FavoritosProvider>
+                    <Routes>
+                        <Route path="/" element={<Inicio />}></Route>
+                        <Route path="/favoritos" element={<Favoritos />}></Route>
+                    </Routes>
+                </FavoritosProvider>
+            </Container>
             <Rodape />
         </BrowserRouter>
     )
